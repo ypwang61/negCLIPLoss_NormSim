@@ -1,0 +1,461 @@
+---
+# get the features of the following tasks
+
+# Caltech-101
+vtab/caltech101:
+  name: Caltech-101
+  size: 6085
+  main_metric: mean_per_class_recall
+  time: 29
+  num_classes: 102
+  random_score: 0.009804
+  tags:
+    - vtab_natural
+  download: clip-benchmark/wds_vtab-caltech101
+  split: train
+
+# CIFAR-10
+cifar10:
+  name: CIFAR-10
+  size: 10000
+  time: 18
+  num_classes: 10
+  random_score: 0.100000
+  tags: []
+  download: clip-benchmark/wds_vtab-cifar10
+  split: train
+
+# CIFAR-100
+vtab/cifar100:
+  name: CIFAR-100
+  size: 10000
+  time: 18
+  num_classes: 100
+  random_score: 0.010000
+  tags:
+    - vtab_natural
+  download: clip-benchmark/wds_vtab-cifar100
+  split: train
+
+# CLEVR Counts
+vtab/clevr_count_all:
+  name: CLEVR Counts
+  size: 15000
+  time: 64
+  num_classes: 8
+  random_score: 0.125061
+  tags:
+    - vtab_structured
+  download: clip-benchmark/wds_vtab-clevr_count_all
+  split: train
+
+# CLEVR Distance
+vtab/clevr_closest_object_distance:
+  name: CLEVR Distance
+  size: 15000
+  time: 64
+  num_classes: 6
+  random_score: 0.190520
+  tags:
+    - vtab_structured
+  download: clip-benchmark/wds_vtab-clevr_closest_object_distance
+  split: train
+
+# Country211
+country211:
+  name: Country211
+  size: 21100
+  time: 66
+  num_classes: 211
+  random_score: 0.004739
+  tags: []
+  download: clip-benchmark/wds_country211
+  split: train
+
+# Describable Textures
+vtab/dtd:
+  name: Describable Textures
+  size: 1880
+  time: 17
+  num_classes: 47
+  random_score: 0.021277
+  tags:
+    - vtab_natural
+  download: clip-benchmark/wds_vtab-dtd
+  split: train
+
+# EuroSAT
+vtab/eurosat:
+  name: EuroSAT
+  size: 5400
+  time: 12
+  num_classes: 10
+  random_score: 0.101483
+  tags:
+    - vtab_specialized
+  download: clip-benchmark/wds_vtab-eurosat
+  split: train
+
+# FGVC Aircraft
+fgvc_aircraft:
+  name: FGVC Aircraft
+  size: 3333
+  main_metric: mean_per_class_recall
+  time: 40
+  num_classes: 100
+  random_score: 0.010000
+  tags: []
+  download: clip-benchmark/wds_fgvc_aircraft
+  split: train
+
+# Food-101
+food101:
+  name: Food-101
+  size: 25250
+  time: 101
+  num_classes: 101
+  random_score: 0.009901
+  tags: []
+  download: clip-benchmark/wds_food101
+  split: train
+
+# GTSRB
+gtsrb:
+  name: GTSRB
+  size: 12630
+  time: 20
+  num_classes: 43
+  random_score: 0.037604
+  tags: []
+  download: clip-benchmark/wds_gtsrb
+  split: train
+
+
+# KITTI Vehicle Distance
+vtab/kitti_closest_vehicle_distance:
+  name: KITTI Vehicle Distance
+  size: 711
+  time: 16
+  num_classes: 4
+  random_score: 0.295289
+  tags:
+    - vtab_structured
+  download: clip-benchmark/wds_vtab-kitti_closest_vehicle_distance
+  split: train
+
+# MNIST
+mnist:
+  name: MNIST
+  size: 10000
+  time: 20
+  num_classes: 10
+  random_score: 0.100350
+  tags: []
+  download: clip-benchmark/wds_mnist
+  split: train
+
+
+# Oxford Flowers-102
+vtab/flowers:
+  name: Oxford Flowers-102
+  size: 6149
+  main_metric: mean_per_class_recall
+  time: 51
+  num_classes: 102
+  random_score: 0.009804
+  tags:
+    - vtab_natural
+  download: clip-benchmark/wds_vtab-flowers
+  split: train
+
+# Oxford-IIIT Pet
+vtab/pets:
+  name: Oxford-IIIT Pet
+  size: 3669
+  main_metric: mean_per_class_recall
+  time: 34
+  num_classes: 37
+  random_score: 0.027027
+  tags:
+    - vtab_natural
+  download: clip-benchmark/wds_vtab-pets
+  split: train
+
+# Pascal VOC 2007
+voc2007:
+  name: Pascal VOC 2007
+  size: 14976
+  time: 41
+  num_classes: 20
+  random_score: 0.154038
+  tags: []
+  download: clip-benchmark/wds_voc2007
+  split: train
+
+# PatchCamelyon
+vtab/pcam:
+  name: PatchCamelyon
+  size: 32768
+  time: 38
+  num_classes: 2
+  random_score: 0.500000
+  tags:
+    - vtab_specialized
+  download: clip-benchmark/wds_vtab-pcam
+  split: train
+
+# Rendered SST2
+renderedsst2:
+  name: Rendered SST2
+  size: 1821
+  time: 10
+  num_classes: 2
+  random_score: 0.500001
+  tags: []
+  download: clip-benchmark/wds_renderedsst2
+  split: train
+
+# RESISC45
+vtab/resisc45:
+  name: RESISC45
+  size: 6300
+  time: 28
+  num_classes: 45
+  random_score: 0.022342
+  tags:
+    - vtab_specialized
+  download: clip-benchmark/wds_vtab-resisc45
+  split: train
+
+# Stanford Cars
+cars:
+  name: Stanford Cars
+  size: 8041
+  time: 59
+  num_classes: 196
+  random_score: 0.005160
+  tags: []
+  download: clip-benchmark/wds_cars
+  split: train
+
+# STL-10
+stl10:
+  name: STL-10
+  size: 8000
+  time: 20
+  num_classes: 10
+  random_score: 0.100000
+  tags: []
+  download: clip-benchmark/wds_stl10
+  split: train
+
+
+# SVHN
+vtab/svhn:
+  name: SVHN
+  size: 26032
+  time: 39
+  num_classes: 10
+  random_score: 0.117897
+  tags:
+    - vtab_natural
+  download: clip-benchmark/wds_vtab-svhn
+  split: train
+
+ImageNet 1k # first skip, need to contain later
+imagenet1k:
+  name: ImageNet 1k
+  size: 50000
+  time: 136
+  num_classes: 1000
+  random_score: 0.001000
+  tags: []
+  download: clip-benchmark/wds_imagenet1k
+  split: train
+  
+# Retrieval datasets
+
+# Flickr30k
+retrieval/flickr_1k_test_image_text_retrieval:
+  name: Flickr
+  size: 1000
+  main_metric: mean_recall@1
+  time: 20
+  tags:
+    - retrieval
+  download: clip-benchmark/wds_flickr8k # 7k training
+  split: train
+  # download: clip-benchmark/wds_flickr30k # 29k training
+
+
+
+# ImageNet Sketch # for all imagenet, because they are all test set. we dont need to use them
+# imagenet_sketch:
+#   name: ImageNet Sketch
+#   size: 50889
+#   time: 249
+#   num_classes: 1000
+#   random_score: 0.001000
+#   tags: []
+#   download: clip-benchmark/wds_imagenet_sketch
+#   split: train
+
+# # ImageNet v2
+# imagenetv2:
+#   name: ImageNet v2
+#   size: 10000
+#   time: 50
+#   num_classes: 1000
+#   random_score: 0.001000
+#   tags: []
+#   download: clip-benchmark/wds_imagenetv2
+#   split: train
+
+# # ImageNet-A
+# imagenet-a:
+#   name: ImageNet-A
+#   size: 7500
+#   time: 47
+#   num_classes: 200
+#   random_score: 0.008056
+#   tags: []
+#   download: clip-benchmark/wds_imagenet-a
+#   split: train
+
+# # ImageNet-O
+# imagenet-o:
+#   name: ImageNet-O
+#   size: 2000
+#   time: 19
+#   num_classes: 200
+#   random_score: 0.006047
+#   tags: []
+#   download: clip-benchmark/wds_imagenet-o
+#   split: train
+
+# ImageNet-R
+# imagenet-r:
+#   name: ImageNet-R
+#   size: 30000
+#   time: 148
+#   num_classes: 200
+#   random_score: 0.006163
+#   tags: []
+#   download: clip-benchmark/wds_imagenet-r
+#   split: train
+
+
+# ObjectNet # fail
+# objectnet:
+#   name: ObjectNet
+#   size: 18574
+#   time: 317
+#   num_classes: 113
+#   random_score: 0.009481
+#   tags: []
+#   download: clip-benchmark/wds_objectnet
+#   split: train
+
+
+# # SUN397 # fail
+# sun397:
+#   name: SUN397
+#   size: 108754
+#   time: 923
+#   num_classes: 397
+#   random_score: 0.004645
+#   tags:
+#     - vtab_natural
+#   download: clip-benchmark/wds_sun397
+#   split: train
+
+
+# MSCOCO # fail
+# retrieval/mscoco_2014_5k_test_image_text_retrieval:
+#   name: MSCOCO
+#   size: 5000
+#   main_metric: mean_recall@1
+#   time: 23
+#   tags:
+#     - retrieval
+#   download: clip-benchmark/wds_mscoco_captions
+#   split: train
+
+# WinoGAViL # fail
+# misc/winogavil:
+#   name: WinoGAViL
+#   size: 3563
+#   main_metric: jaccard_score_10-12
+#   time: 1096
+#   random_score: 0.205000
+#   tags:
+#     - retrieval
+#   download: nlphuji/winogavil
+#   split: train
+
+# WILDS datasets
+
+# iWildCam # fail
+# wilds/iwildcam:
+#   name: iWildCam
+#   size: 42791
+#   main_metric: F1-macro_all
+#   time: 251
+#   num_classes: 182
+#   random_score: 0.143056
+#   tags:
+#     - wilds
+#   download: kiyoonkim/iwildcam-2022-splits # just 1.42k training, not good. need more 
+#   split: train
+
+# Camelyon17 # fail to retreive
+# wilds/camelyon17:
+#   name: Camelyon17
+#   size: 85054
+#   time: 212
+#   num_classes: 2
+#   random_score: 0.500000
+#   tags:
+#     - wilds
+#   download: wltjr1007/Camelyon17-WILDS
+#   split: train
+
+# FMoW # fail to retreive
+# wilds/fmow:
+#   name: FMoW
+#   size: 22108
+#   main_metric: acc_worst_region
+#   time: 88
+#   num_classes: 62
+#   random_score: 0.027193
+#   tags:
+#     - wilds
+#   download: danielz01/fMoW
+#   split: val
+
+# Fairness datasets
+
+# Dollar Street: split is very strange, fail
+# fairness/dollar_street:
+#   name: Dollar Street
+#   size: 3503
+#   main_metric: acc_top5_wg
+#   time: 404
+#   num_classes: 58
+#   tags:
+#     - fairness
+#   download: iamshnoo/dollarstreet
+
+# GeoDE # fail
+# fairness/geode:
+#   name: GeoDE
+#   size: 12488
+#   main_metric: acc_wg
+#   time: 354
+#   num_classes: 40
+#   tags:
+#     - fairness
+#   download:
+
+
+...
