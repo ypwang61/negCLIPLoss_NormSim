@@ -1,7 +1,13 @@
 # CLIPLoss and Norm-Based Data Selection Methods for Multimodal Contrastive Learning
-[[ Paper ]](https://arxiv.org/abs/2405.19547)
+[[Paper]](https://arxiv.org/abs/2405.19547)
+[[Twitter]](https://x.com/ypwang61/status/1798396572516151612)
+[[Poster]](https://ypwang61.github.io/pdfs/Poster_negCLIPLoss_NormSim.pdf)
+[[DataComp Leaderboard]](https://www.datacomp.ai/dcclip/leaderboard.html)
 
-This is an official code of negCLIPLoss & NormSim, which is a simple but efficient data selection method for CLIP model. This paper replaces the original [VAS](https://arxiv.org/abs/2402.02055) paper.
+[[HuggingFace (Samples ID on DataComp-medium)]](https://huggingface.co/ypwang61/negCLIPLoss_NormSim/tree/main/medium_scale)
+
+
+This is an official code of negCLIPLoss & NormSim (**NeurIPS2024 Spotlight**), which is a simple but efficient data selection method for CLIP model. This paper has a previous version [VAS](https://arxiv.org/abs/2402.02055) paper.
 
 If you found this repository, our paper useful, please consider citing:
 
